@@ -1,0 +1,45 @@
+body {
+  background: pink;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 2.5em;
+}
+
+button {
+  margin-top: 30px;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background: red;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkred;
+}
+
+.heart {
+  font-size: 5em;
+  color: red;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+input {
+  padding: 10px;
+  font-size: 1.2em;
+  border-radius: 8px;
+  border: none;
+}
